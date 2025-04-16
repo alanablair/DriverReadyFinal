@@ -1,0 +1,38 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: #f4f4f4; /* fallback background color */
+  padding: 20px;
+}
+
+footer {
+  background: #f4f4f4;
+  padding: 10px;
+  font-size: 14px;
+  color: #444;
+  margin-top: 20px;
+}
+
+footer nav a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #444;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
